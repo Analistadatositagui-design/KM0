@@ -26,7 +26,7 @@ export const plantillas = {
   kmFecha: (d: DatosPlantilla, p: { servicio: string }) =>
     `${saludo(d)} A ${su(d)} ${d.vehiculo} (${d.placa}) le corresponde por tiempo el servicio «${p.servicio}». ¿Le agendamos una cita? — ${d.firma}`,
   docs: (d: DatosPlantilla, p: { documento: string; fecha: string; dias: number }) =>
-    `${saludo(d)} El ${p.documento} del vehículo ${d.placa} vence el ${p.fecha} (en ${p.dias} ${p.dias === 1 ? "día" : "días"}). — ${d.firma}`,
+    `${saludo(d)} ${p.documento} del vehículo ${d.placa} vence el ${p.fecha} (en ${p.dias} ${p.dias === 1 ? "día" : "días"}). — ${d.firma}`,
   pico: (d: DatosPlantilla) =>
     `${saludo(d)} Mañana la placa ${d.placa} tiene pico y placa en Medellín de 5:00 a. m. a 8:00 p. m. Que no lo tome por sorpresa. — ${d.firma}`,
   lectura: (d: DatosPlantilla) =>

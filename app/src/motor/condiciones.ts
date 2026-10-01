@@ -163,7 +163,7 @@ export function evaluar(db: DB, tallerId: string, ahora: Date = new Date()): { c
     // 2 · Documentos por vencer: recordatorio escalonado (p. ej. 30, 15 y 3 días)
     if (r.docs?.activa) {
       const umbrales = [Number(r.docs.params["d1"] ?? 30), Number(r.docs.params["d2"] ?? 15), Number(r.docs.params["d3"] ?? 3)].sort((a, b) => b - a);
-      for (const [campo, nombreDoc] of [["soat_vence", "SOAT"], ["tecno_vence", "revisión técnico-mecánica"]] as const) {
+      for (const [campo, nombreDoc] of [["soat_vence", "El SOAT"], ["tecno_vence", "La revisión técnico-mecánica"]] as const) {
         const vence = v[campo];
         if (!vence) continue;
         const dias = diasEntre(hoy, vence);
