@@ -1,0 +1,20 @@
+{
+  "name": "taller-conectado",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fase 1 de Taller Conectado para Kilómetro 0: panel del taller, órdenes, checklist, cotización, avisos, costos y rentabilidad.",
+  "scripts": {
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.ts",
+    "start": "node --disable-warning=ExperimentalWarning src/server.ts",
+    "seed": "node --disable-warning=ExperimentalWarning src/seed.ts",
+    "seed:demo": "node --disable-warning=ExperimentalWarning src/seed.ts --demo",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.8.0"
+  }
+}

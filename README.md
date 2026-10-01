@@ -13,13 +13,14 @@ construir, y después el producto.
 La visita al taller se hizo el 1 de octubre de 2026 y el levantamiento está en la ficha. La Fase 1
 se entrega operando en el taller el **1 de diciembre de 2026**, con el módulo de costos y
 rentabilidad incluido. El protocolo va en la versión 0.2; el plan de construcción está en
-`producto/plan-fase-1.md`. No hay código del producto todavía.
+`producto/plan-fase-1.md` y el código del núcleo arrancó en `app/`.
 
 ## Contenido
 
 | Ruta | Qué contiene |
 |---|---|
 | `producto/plan-fase-1.md` | Plan del proyecto final: alcance de la Fase 1 (diez módulos, costos y rentabilidad incluido), cronograma al 1 de diciembre de 2026, prerrequisitos y riesgos. |
+| `app/` | Código de la Fase 1: API en TypeScript sobre Node, motor de condiciones, panel del taller y pruebas. `app/README.md` dice cómo correrlo. |
 | `investigacion/protocolo.md` | Protocolo de investigación: problema, preguntas, hipótesis, diseño de evaluación, tamaño de muestra, instrumentos, revisión de literatura, ética, amenazas a la validez, cronograma y regla de decisión. |
 | `investigacion/instrumentos/` | Plantilla para el histórico de órdenes, bitácora de búsqueda bibliográfica y guion de entrevista. |
 | `investigacion/herramientas/` | Scripts de apoyo. `tamano_muestra.py` calcula el tamaño de muestra sin dependencias externas. |
