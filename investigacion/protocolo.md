@@ -1,6 +1,6 @@
 # Protocolo de investigación: Taller Conectado para Kilómetro 0
 
-Versión 0.1, borrador para revisión. 24 de septiembre de 2026.
+Versión 0.2, actualizado con el levantamiento de la visita al taller. 1 de octubre de 2026.
 Responsable: Mauricio Márquez Gutiérrez.
 
 El diseño del producto, la presentación y el benchmarking de mercado viven en
@@ -39,9 +39,9 @@ Lo que existe al 24 de septiembre de 2026:
 | Problema y tesis | Presentación, pantallas 2 y 3 | Definido, sin cuantificar |
 | Benchmarking de mercado | `docs/01-investigacion.md` de taller-conectado | Hecho con fuentes comerciales; no reproducible (se reconstruyó desde la presentación) |
 | Arquitectura y diseño del producto | `docs/02-diseno.md` de taller-conectado | Diseñado; no construido |
-| Ficha de levantamiento de la visita | Artefacto privado de claude.ai | Lista; sin datos (la visita no ha ocurrido) |
+| Ficha de levantamiento de la visita | Artefacto privado de claude.ai | Llena el 1 de octubre de 2026 (7 de 11 bloques completos) |
 | Código del producto | Este repositorio | No existe |
-| Línea base (tres números) | Ficha, bloque 1 | No existe |
+| Línea base (tres números) | Ficha, bloque 1 | Estimada por el dueño: 150 clientes/mes, ticket 300.000, 15 % vuelve a tiempo; pendiente contraste con el histórico |
 
 Lo que este protocolo aporta: pregunta e hipótesis explícitas, definición operativa de las
 variables, diseño de evaluación con tamaño de muestra, instrumentos, plan de revisión de literatura
@@ -383,22 +383,22 @@ raíz de la revisión.
 
 ## 13. Cronograma
 
-Semanas contadas desde la visita al taller (semana 0). Las fechas exactas se fijan cuando se agende
-la visita.
+Re-anclado tras la visita del 1 de octubre de 2026. La fecha dura es la entrega de la Fase 1
+operando en el taller el **1 de diciembre de 2026**, con el módulo de costos y rentabilidad
+incluido por decisión del dueño. El detalle semana a semana vive en
+[`producto/plan-fase-1.md`](../producto/plan-fase-1.md); aquí queda el marco de la investigación.
 
-| Semana | Actividad | Entregable |
+| Momento | Actividad | Entregable |
 |---|---|---|
-| 0 | Visita de dos horas; ficha de levantamiento | Ficha llena; tres números con su origen |
-| 1 y 2 | Extracción del histórico de órdenes; diccionario de datos; línea base retrospectiva; propuesta escrita de la Fase 1 (alcance, tiempos y valor) | Informe de línea base; propuesta |
-| 1 a 4 | Revisión de literatura y marco legal | `revision-literatura.md` y bitácora |
-| 3 | Cierre de las preguntas abiertas (sección 16); protocolo v1.0 | Tag `protocolo-v1.0` |
-| 4 a 12 | Construcción de la Fase 1, con la tabla de eventos diseñada para el análisis | Código en este repositorio |
-| 10 a 12 | Validación técnica: proyección de km con el histórico, lectura de fechas sobre documentos reales, agente sobre respuestas reales | Informe de validación técnica |
-| 12 | Aleatorización, consentimientos, prueba con el mecánico y el cliente del piloto | Tabla de asignación (fuera del repo) |
-| 13 a 38 | Piloto de seis meses; corte operativo en la semana 25 | Tablero de seguimiento del embudo |
-| 39 a 64 | Extensión a doce meses, si se acordó | |
-| Cierre + 4 | Análisis, entrevistas de cierre, informe de evaluación | `evaluacion.md` con scripts |
-| Cierre + 6 | Decisión sobre la Fase 2; guía de replicación para el segundo taller | Propuesta de Fase 2 |
+| 1 oct 2026 | Visita de dos horas; ficha de levantamiento | Hecho: ficha con 7 de 11 bloques |
+| Sem. oct 6 a 12 | Histórico de órdenes y línea base retrospectiva; revisión de literatura en paralelo (hasta fin de octubre) | Informe de línea base |
+| Sem. oct 13 a 19 | Revisión con el dueño: propuesta escrita, piloto con nombres, catálogo, opción de asignación; cierre de las preguntas abiertas (sección 16) | Tag `protocolo-v1.0` |
+| oct 20 a nov 30 | Construcción de la Fase 1 con la tabla de eventos diseñada para el análisis; validación técnica de proyección de km y lectura de fechas en las últimas dos semanas | Código; informe de validación técnica |
+| Antes de encender avisos | Asignación según la opción acordada, autorizaciones registradas | Tabla de asignación (fuera del repo) |
+| **1 dic 2026** | **Entrega de la Fase 1 en operación** | Sistema en uso en el taller |
+| dic 2026 a nov 2027 | Medición con ventana de doce meses (decisión de la visita); corte operativo del embudo a los tres meses | Tablero de seguimiento del embudo |
+| Cierre + 4 semanas | Análisis, entrevistas de cierre, informe de evaluación | `evaluacion.md` con scripts |
+| Cierre + 6 semanas | Decisión sobre la Fase 2; guía de replicación para el segundo taller | Propuesta de Fase 2 |
 
 ## 14. Entregables y criterios de calidad
 
@@ -423,12 +423,12 @@ la visita.
 
 ## 16. Preguntas abiertas para cerrar en la v1.0
 
-- [ ] Los tres números y su origen (ficha, bloque 1).
-- [ ] Histórico de órdenes: desde cuándo existe, en qué formato, qué campos tiene y quién lo exporta.
+- [x] Los tres números y su origen (ficha, bloque 1): 150 clientes/mes, ticket 300.000, 15 % vuelve a tiempo, estimado del dueño. Se contrastan con el histórico.
+- [ ] Histórico de órdenes: hay 3.600 órdenes de 24 meses en Excel (fecha, placa, km, servicios, celular; exporta contabilidad). Falta la fecha de entrega y que el export incluya el valor de la orden.
 - [ ] Tolerancia de «a tiempo» acordada con el dueño.
 - [ ] Opción de asignación (A, B o C) aceptada por el dueño, y por qué.
 - [ ] Mejora mínima que vale la pena detectar, fijada con la línea base.
-- [ ] Ventana: seis o doce meses.
+- [x] Ventana: doce meses (ficha, bloque 10).
 - [ ] Texto de autorización de datos y política de tratamiento publicada.
 - [ ] Horarios de envío conformes a la Ley 2300 de 2023, verificados sobre el texto vigente.
 - [ ] Categoría de plantilla en WhatsApp Business para cada tipo de aviso y costo por mensaje.
@@ -510,3 +510,4 @@ mes. Este embudo es lo que se revisa en el corte operativo de los tres meses.
 | Versión | Fecha | Cambio | Motivo |
 |---|---|---|---|
 | 0.1 | 2026-09-24 | Borrador inicial | Punto de partida para la revisión del equipo y la visita al taller |
+| 0.2 | 2026-10-01 | Visita realizada: línea base estimada 15 %, ventana de doce meses, cronograma re-anclado con entrega de la Fase 1 el 2026-12-01, y alcance de la Fase 1 ampliado con el módulo de costos y rentabilidad (decisión del dueño). Con p1=15 % y mejora de 15 puntos: 121 vehículos por grupo | Levantamiento del 1 de octubre; instrucción del responsable |

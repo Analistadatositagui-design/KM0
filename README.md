@@ -10,13 +10,16 @@ construir, y después el producto.
 
 ## Estado
 
-Fase de investigación. No hay código del producto todavía. El protocolo está en borrador
-(versión 0.1) a la espera de la visita al taller, que aporta la línea base.
+La visita al taller se hizo el 1 de octubre de 2026 y el levantamiento está en la ficha. La Fase 1
+se entrega operando en el taller el **1 de diciembre de 2026**, con el módulo de costos y
+rentabilidad incluido. El protocolo va en la versión 0.2; el plan de construcción está en
+`producto/plan-fase-1.md`. No hay código del producto todavía.
 
 ## Contenido
 
 | Ruta | Qué contiene |
 |---|---|
+| `producto/plan-fase-1.md` | Plan del proyecto final: alcance de la Fase 1 (diez módulos, costos y rentabilidad incluido), cronograma al 1 de diciembre de 2026, prerrequisitos y riesgos. |
 | `investigacion/protocolo.md` | Protocolo de investigación: problema, preguntas, hipótesis, diseño de evaluación, tamaño de muestra, instrumentos, revisión de literatura, ética, amenazas a la validez, cronograma y regla de decisión. |
 | `investigacion/instrumentos/` | Plantilla para el histórico de órdenes, bitácora de búsqueda bibliográfica y guion de entrevista. |
 | `investigacion/herramientas/` | Scripts de apoyo. `tamano_muestra.py` calcula el tamaño de muestra sin dependencias externas. |
@@ -38,6 +41,6 @@ python3 investigacion/herramientas/tamano_muestra.py 0.60 0.75
 
 ## Qué sigue
 
-1. Agendar la visita al taller y llenar la ficha de levantamiento.
-2. Exportar el histórico de órdenes con la plantilla de `investigacion/instrumentos/` y calcular la línea base.
-3. Cerrar las preguntas abiertas de la sección 16 del protocolo y congelarlo como versión 1.0 con el tag `protocolo-v1.0`.
+1. Recibir el histórico de órdenes (con valor de la orden) y calcular la línea base real.
+2. Revisión con el dueño en la quincena de octubre: propuesta escrita, piloto con nombres, intervalos del catálogo y opción de asignación; cerrar la sección 16 y congelar el protocolo como v1.0.
+3. Construir la Fase 1 según `producto/plan-fase-1.md`, entrega el 1 de diciembre de 2026.
