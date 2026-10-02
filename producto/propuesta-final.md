@@ -62,7 +62,7 @@ opciones; cambian la propiedad del software y el costo inicial. Mario elige una 
 | Costo inicial | 10.000.000: 50 % al aprobar y 50 % a la entrega | 5.000.000: 2.500.000 al iniciar y 2.500.000 al desplegar en producción |
 | Mensualidad | 500.000 desde la operación | 500.000 desde el despliegue |
 | Datos del taller | Siempre de Kilómetro 0, exportables | Siempre de Kilómetro 0, exportables y nunca compartidos con otros clientes |
-| Exclusividad | El software no se vende a nadie más | Exclusividad en Itagüí durante los primeros 12 meses de operación |
+| Exclusividad | El software no se vende a nadie más | Exclusividad en todo el Valle de Aburrá durante los primeros 12 meses, contados desde el despliegue en producción de la Fase 1 |
 
 En la opción B el producto podrá ofrecerse después a otros talleres; el descuento del 50 %
 reconoce que Kilómetro 0 es el taller piloto que lo pone a punto. Si se elige la opción B, las
