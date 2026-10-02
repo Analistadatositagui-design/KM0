@@ -2,7 +2,7 @@
 
 Propuesta para Mario, dueño del taller Kilómetro 0 (Medellín). Versión editable para entrega:
 documento vivo en claude.ai (artefacto «Taller Conectado · Proyecto final»). Este archivo es la
-copia versionada; las cifras de costos son de referencia y se fijan antes de la firma.
+copia versionada; la Fase 1 está en firme y las cifras de las fases 2 y 3 son de referencia.
 
 Fecha: 2026-10-02 · Autor: Mauricio Márquez Gutiérrez
 
@@ -53,17 +53,19 @@ Cada paso queda registrado como evento; esos son los mismos números del reporte
 
 El proyecto se construye por fases. Cada fase tiene un costo inicial de construcción y una
 mensualidad de mantenimiento y soporte que arranca cuando esa fase entra en operación. Valores en
-COP, de referencia: la cifra en firme se fija antes de aprobar cada fase.
+COP. La Fase 1 está en firme; los valores de las fases 2 y 3 son de referencia y se fijan antes de
+aprobar cada una.
 
 | Fase | Qué entrega | Plazo | Costo inicial (COP) | Mensualidad (COP) |
 | --- | --- | --- | --- | --- |
-| 1 · Núcleo operativo | Sistema completo operando: perfiles, órdenes, checklist con fotos, cotización y avisos por WhatsApp, citas, costos y rentabilidad | 2 meses desde la aprobación | 9.000.000 – 12.000.000 (por confirmar) | 450.000 – 600.000 (por confirmar) |
+| 1 · Núcleo operativo | Sistema completo operando: perfiles, órdenes, checklist con fotos, cotización y avisos por WhatsApp, citas, costos y rentabilidad | 2 meses desde la aprobación | 10.000.000 (en firme) | 500.000 (en firme) |
 | 2 · Integraciones | Conexión con SIIGO, carga del histórico completo, WhatsApp Business API plena, reportes avanzados, respaldo ampliado | 6 semanas | 5.000.000 – 7.000.000 (por confirmar) | reemplaza a la anterior: 550.000 – 700.000 |
 | 3 · Inteligencia | Agente que responde a los clientes, predicción de deserción, encuestas de satisfacción automáticas | 6–8 semanas | 6.000.000 – 8.000.000 (por confirmar) | reemplaza a la anterior: 700.000 – 900.000 |
 
 - La mensualidad es una sola por todo el sistema: al entrar una fase nueva, la mensualidad sube a
   la de esa fase (no se suman).
-- Forma de pago sugerida del costo inicial: 50 % al aprobar la fase y 50 % a la entrega operando.
+- Forma de pago sugerida del costo inicial: 50 % al aprobar la fase y 50 % a la entrega operando
+  (en la Fase 1: 5.000.000 y 5.000.000).
 - El costo por conversación de WhatsApp Business API lo factura Meta aparte según el volumen; se
   estima con datos reales durante la Fase 1.
 - Cada fase se aprueba por separado: terminar la Fase 1 no obliga a contratar la 2.
