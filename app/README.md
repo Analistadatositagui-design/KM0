@@ -21,6 +21,13 @@ Usuarios iniciales (claves de arranque, **cambiarlas antes de operar con datos r
 Variables: `PUERTO` (3000), `TALLER_DATOS` (carpeta de datos; por defecto `app/data`, ignorada por
 git), `MOTOR_CADA_MINUTOS` (30), `WHATSAPP_TOKEN` y `WHATSAPP_PHONE_ID` (API de Meta, cuando exista).
 
+## Demo en línea
+
+Hay una demo navegable del panel (puerto del motor y la interfaz a una página, con datos ficticios
+marcados como demo) en <https://claude.ai/artifact/1FiYmeD5asXjksxjT6GEj4>. Es privada del dueño del
+proyecto y sirve para probar desde el celular; no es el servidor real de esta carpeta, que se
+desplegará cuando se defina el hosting (prerrequisito 6 del plan).
+
 ## Qué cubre del plan (módulos de la sección 2.1)
 
 | Módulo | Estado |
