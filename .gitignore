@@ -1,0 +1,13 @@
+# Datos crudos y datos personales: nunca al repositorio.
+# La carpeta existe para trabajar en local; solo se versiona su README.
+investigacion/datos/*
+!investigacion/datos/README.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Taller Conectado · Kilómetro 0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="barra">
+  <div class="barra-in">
+    <div class="marca">Taller Conectado<small id="marca-sub">Kilómetro 0</small></div>
+    <nav class="pestanas" id="nav" hidden>
+      <a href="#/tablero" data-v="tablero">Tablero</a>
+      <a href="#/clientes" data-v="clientes">Clientes</a>
+      <a href="#/avisos" data-v="avisos">Avisos <span class="punto" id="avisos-n" hidden></span></a>
+      <a href="#/control" data-v="control" data-rol="dueno">Control</a>
+    </nav>
+    <div class="quien" id="quien" hidden><span id="quien-nombre"></span><button class="btn chico" id="salir" type="button">Salir</button></div>
+  </div>
+</header>
+
+<main id="vista" class="vista"></main>
+
+<div class="velo" id="login">
+  <form class="tarjeta login" id="form-login">
+    <h1>Taller Conectado</h1>
+    <p class="suave">Panel del taller · Fase 1</p>
+    <label>Usuario<input id="l-usuario" autocomplete="username" required></label>
+    <label>Clave<input id="l-clave" type="password" autocomplete="current-password" required></label>
+    <button class="btn primario" type="submit">Entrar</button>
+    <p class="error" id="l-error" hidden></p>
+  </form>
+</div>
+
+<div class="aviso-flotante" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
