@@ -15,7 +15,7 @@ Nadie ve el negocio completo, y por eso solo vuelve cerca del 15 % de los client
 a tiempo que les toca mantenimiento.
 
 Taller Conectado centraliza todo sin cambiar la forma de trabajar de cada quien. Cada perfil
-(recepción, mecánico, administrador) sigue registrando los mismos datos que hoy, pero en el
+(recepción, mecánico, contabilidad, administrador) sigue registrando los mismos datos que hoy, pero en el
 sistema; y el panel administrador muestra todo unificado y en vivo, para tomar decisiones basadas
 en datos: qué órdenes hay abiertas, qué clientes dejan margen, qué avisos salieron y quién
 respondió.
@@ -30,7 +30,7 @@ aplicación web: funciona desde el celular o el computador, sin instalar nada.
 | Administrador | Mario (dueño) | Reglas, catálogo, precios | Todo unificado: embudo, costos, margen y ranking de clientes |
 | Recepción | Quien recibe vehículos | Cliente, orden, kilometraje, autorización de datos, citas | Tablero del día, bandeja de WhatsApp |
 | Mecánico | Taller | Checklist de ingreso con fotos, hallazgos | Sus órdenes en trabajo |
-| Contabilidad (Fase 2) | SIIGO / Excel | Costos reales importados | Reportes de rentabilidad |
+| Contabilidad | Quien lleva los costos | Repuestos y mano de obra por orden: la fuente de origen del dato contable | Reportes de rentabilidad |
 
 El corazón es un **motor inteligente multiestados**: cada orden y cada aviso avanzan por estados y
 el sistema actúa solo según el estado en que esté cada cliente.
@@ -59,7 +59,7 @@ aprobar cada una.
 | Fase | Qué entrega | Plazo | Costo inicial (COP) | Mensualidad (COP) |
 | --- | --- | --- | --- | --- |
 | 1 · Núcleo operativo | Sistema completo operando: perfiles, órdenes, checklist con fotos, cotización y avisos por WhatsApp, citas, costos y rentabilidad | 2 meses desde la aprobación | 10.000.000 (en firme) | 500.000 (en firme) |
-| 2 · Integraciones | Conexión con SIIGO, carga del histórico completo, WhatsApp Business API plena, reportes avanzados, respaldo ampliado | 6 semanas | 5.000.000 – 7.000.000 (por confirmar) | reemplaza a la anterior: 550.000 – 700.000 |
+| 2 · Integraciones | Integración con SIIGO solo si se requiere, carga del histórico completo, WhatsApp Business API plena, reportes avanzados, respaldo ampliado | 6 semanas | 5.000.000 – 7.000.000 (por confirmar) | reemplaza a la anterior: 550.000 – 700.000 |
 | 3 · Inteligencia | Agente que responde a los clientes, predicción de deserción, encuestas de satisfacción automáticas | 6–8 semanas | 6.000.000 – 8.000.000 (por confirmar) | reemplaza a la anterior: 700.000 – 900.000 |
 
 - La mensualidad es una sola por todo el sistema: al entrar una fase nueva, la mensualidad sube a
@@ -77,7 +77,7 @@ y probados con datos del levantamiento del 1 de octubre (ver `plan-fase-1.md` y 
 
 | # | Módulo | Qué hace |
 | --- | --- | --- |
-| 1 | Panel con perfiles | Usuarios y claves por rol: administrador, recepción, mecánico |
+| 1 | Panel con perfiles | Usuarios y claves por rol: administrador, recepción, mecánico y contabilidad |
 | 2 | Orden e historial | Cada vehículo con su historia completa: kilometraje, documentos, servicios |
 | 3 | Checklist de ingreso | Revisión con fotos desde el celular: bien / atención / urgente |
 | 4 | Cotización por WhatsApp | Cotización con evidencia (fotos) y aprobación ítem por ítem con fecha |
@@ -86,7 +86,7 @@ y probados con datos del levantamiento del 1 de octubre (ver `plan-fase-1.md` y 
 | 7 | Citas | Agenda ligada al aviso: del mensaje a la cita y de la cita a la orden |
 | 8 | Autorización de datos (Ley 1581) | Registro de autorización por cliente; sin ella no sale ningún mensaje |
 | 9 | Registro de eventos | Embudo automático: aviso → respuesta → cita → visita, para medir resultados |
-| 10 | Costos y rentabilidad | Repuestos y mano de obra por orden, margen real y ranking de clientes rentables |
+| 10 | Costos y rentabilidad | El perfil de contabilidad registra repuestos y mano de obra por orden; margen real y ranking de clientes rentables |
 
 Además queda incluido el aviso de pico y placa por placa y día, con tabla configurable y festivos.
 
