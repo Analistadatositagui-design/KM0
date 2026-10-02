@@ -49,23 +49,42 @@ Ciclo del motor: servicio cerrado → el motor vigila las condiciones → aviso 
 cliente responde → cita agendada → nueva orden en el taller → cerrada, y el ciclo vuelve a empezar.
 Cada paso queda registrado como evento; esos son los mismos números del reporte mensual.
 
+## Dos opciones de ejecución
+
+La Fase 1 — los diez módulos, el plazo de 2 meses y el cronograma — es idéntica en las dos
+opciones; cambian la propiedad del software y el costo inicial. Mario elige una al aprobar.
+
+| | Opción A · Desarrollo a la medida | Opción B · Piloto de producto |
+| --- | --- | --- |
+| Qué recibe Kilómetro 0 | El sistema completo de la Fase 1 | El mismo sistema completo de la Fase 1 |
+| Propiedad del software | De Kilómetro 0 | De Mauricio Márquez como dueño de producto; Kilómetro 0 opera como piloto |
+| Licencia para Kilómetro 0 | No aplica: el software es suyo | Licencia de uso permanente de lo entregado, sin vencimiento |
+| Costo inicial | 10.000.000: 50 % al aprobar y 50 % a la entrega | 5.000.000: 2.500.000 al iniciar y 2.500.000 al desplegar en producción |
+| Mensualidad | 500.000 desde la operación | 500.000 desde el despliegue |
+| Datos del taller | Siempre de Kilómetro 0, exportables | Siempre de Kilómetro 0, exportables y nunca compartidos con otros clientes |
+| Exclusividad | El software no se vende a nadie más | Exclusividad en Itagüí durante los primeros 12 meses de operación |
+
+En la opción B el producto podrá ofrecerse después a otros talleres; el descuento del 50 %
+reconoce que Kilómetro 0 es el taller piloto que lo pone a punto. Si se elige la opción B, las
+fases 2 y 3 se cotizan bajo el mismo modelo de producto.
+
 ## Fases, costos y plazos
 
 El proyecto se construye por fases. Cada fase tiene un costo inicial de construcción y una
 mensualidad de mantenimiento y soporte que arranca cuando esa fase entra en operación. Valores en
-COP. La Fase 1 está en firme; los valores de las fases 2 y 3 son de referencia y se fijan antes de
-aprobar cada una.
+COP. La Fase 1 está en firme según la opción elegida; los valores de las fases 2 y 3 son de
+referencia y se fijan antes de aprobar cada una.
 
 | Fase | Qué entrega | Plazo | Costo inicial (COP) | Mensualidad (COP) |
 | --- | --- | --- | --- | --- |
-| 1 · Núcleo operativo | Sistema completo operando: perfiles, órdenes, checklist con fotos, cotización y avisos por WhatsApp, citas, costos y rentabilidad | 2 meses desde la aprobación | 10.000.000 (en firme) | 500.000 (en firme) |
+| 1 · Núcleo operativo | Sistema completo operando: perfiles, órdenes, checklist con fotos, cotización y avisos por WhatsApp, citas, costos y rentabilidad | 2 meses desde la aprobación | A: 10.000.000 · B: 5.000.000 (en firme) | 500.000 (en firme) |
 | 2 · Integraciones | Integración con SIIGO solo si se requiere, carga del histórico completo, WhatsApp Business API plena, reportes avanzados, respaldo ampliado | 6 semanas | 5.000.000 – 7.000.000 (por confirmar) | reemplaza a la anterior: 550.000 – 700.000 |
 | 3 · Inteligencia | Agente que responde a los clientes, predicción de deserción, encuestas de satisfacción automáticas | 6–8 semanas | 6.000.000 – 8.000.000 (por confirmar) | reemplaza a la anterior: 700.000 – 900.000 |
 
 - La mensualidad es una sola por todo el sistema: al entrar una fase nueva, la mensualidad sube a
   la de esa fase (no se suman).
-- Forma de pago sugerida del costo inicial: 50 % al aprobar la fase y 50 % a la entrega operando
-  (en la Fase 1: 5.000.000 y 5.000.000).
+- Forma de pago del costo inicial de la Fase 1: opción A, 5.000.000 al aprobar y 5.000.000 a la
+  entrega; opción B, 2.500.000 al iniciar y 2.500.000 al desplegar en producción.
 - El costo por conversación de WhatsApp Business API lo factura Meta aparte según el volumen; se
   estima con datos reales durante la Fase 1.
 - Cada fase se aprueba por separado: terminar la Fase 1 no obliga a contratar la 2.
