@@ -124,6 +124,22 @@ validados y el texto de autorización de datos con el horario de contacto.
 No incluye: módulos o desarrollos nuevos (se cotizan como fase o adición), el costo por
 conversación que factura Meta por WhatsApp Business API, ni equipos o celulares del taller.
 
+## Independencia del proyecto
+
+Taller Conectado es un proyecto contratado entre Mauricio Márquez Gutiérrez y el taller Kilómetro
+0, independiente de la relación laboral del desarrollador con LIS. Para claridad de ambas partes:
+
+- El desarrollo y el soporte se realizan por fuera de la jornada laboral de LIS y no hacen parte
+  de las funciones de ese cargo.
+- Todos los recursos del proyecto — equipos, suscripciones, planes, membresías, servicios de
+  inteligencia artificial y hosting — son propios del proyecto y se pagan con cargo a este, nunca
+  con recursos, cuentas o activos de LIS.
+- Los gastos e ingresos del proyecto se facturan al proyecto o a Kilómetro 0: empresas y
+  contabilidades separadas de LIS, aunque compartan dueño.
+- La propiedad del software y de los datos se rige por lo pactado en este documento entre las
+  partes, sin relación con contratos de LIS. La aprobación de esta propuesta deja constancia
+  escrita de esta independencia.
+
 ## Compromisos y medición de resultados
 
 - **Los datos son del taller.** Toda la información queda en una base exportable completa cuando
